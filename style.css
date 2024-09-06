@@ -5,7 +5,7 @@
     --debug-bg-header:#add8e6;
     --debug-bg-title:#daa520;
     --debug-bg-navbar:#00008b;
-    --debug-content-nav:#ee82ee;
+    --debug-content-navbar:#ee82ee;
     --debug-bg-section:#ffffff;
     --debug-bg-section-reverse:#d3d3d3;
     --debug-primary:#1e90ff;
@@ -38,6 +38,13 @@
     display: flex;
 }
 
+#section-nav{
+    height: 380px;
+}
+
+.section{
+    height: 400px;
+}
 
 
 /* #region debug */
@@ -55,7 +62,14 @@
     border: 1px dashed black;
 }
 
+.debug-navbar{
+    background-color: var(--debug-bg-navbar);
+}
 
+.debug-content-navbar{
+    background-color: var(--debug-content-navbar);
+    border:1px dashed black
+}
 
 
 /* #header */
@@ -89,3 +103,12 @@
     color: black;
     text-decoration: none;
 }
+
+/* #nav */
+
+.content-navbar{
+    width: 60%;
+    height: 90%;
+}
+
+/* #main */
