@@ -1,0 +1,19 @@
+/*#region assets */
+
+/* colors */
+:root{
+    --debug-bg-header:#add8e6;
+    --debug-bg-title:#daa520;
+    --debug-bg-navbar:#00008b;
+    --debug-content-nav:#ee82ee;
+    --debug-bg-section:#ffffff;
+    --debug-bg-section-reverse:#d3d3d3;
+    --debug-primary:#1e90ff;
+    --debug-secondary:#ffc0cb;
+    --debug-tertiary:#228b22;
+    --debug-bg-footer:#23272a;
+    --debug-main-footer:#f08080;
+    --debug-section-footer:#20b2aa;
+    --debug-main-credits:#7fffd4;
+    --debug-bg-logo-button:#ffb6c1;
+}
