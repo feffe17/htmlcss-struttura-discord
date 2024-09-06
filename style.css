@@ -1,4 +1,4 @@
-/*#region assets */
+/* #region assets */
 
 /* colors */
 :root{
@@ -16,4 +16,76 @@
     --debug-section-footer:#20b2aa;
     --debug-main-credits:#7fffd4;
     --debug-bg-logo-button:#ffb6c1;
+}
+
+/* generic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container{
+    width: 70%;
+    display: flex;
+}
+
+
+
+/* #region debug */
+
+/* header */
+.debug-header{
+    background-color: var(--debug-bg-header);
+}
+
+.debug-title-container{
+    background-color: var(--debug-bg-title);
+}
+
+.debug-title-section{
+    border: 1px dashed black;
+}
+
+
+
+
+/* #header */
+
+.title-region{
+    height: 40px;
+    margin: 5px 0 5px 0;
+}
+
+.title-section{
+    display: flex;
+    align-items: center;
+}
+
+.title-logo{
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.title-links{
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.title-login{
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.title-links>a{
+    color: black;
+    text-decoration: none;
 }
