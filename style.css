@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-.sub-container{
+.subcontainer{
     width: 70%;
     display: flex;
 }
@@ -45,6 +45,8 @@
 .section{
     height: 400px;
 }
+
+.main
 
 
 /* #region debug */
@@ -71,12 +73,19 @@
     border:1px dashed black
 }
 
+.debub-osection{
+    background-color: var(--debug-bg-section);
+}
 
 /* #header */
 
+.title{
+height: 45px;
+
+}
+
 .title-region{
-    height: 40px;
-    margin: 5px 0 5px 0;
+    height: 70%;
 }
 
 .title-section{
