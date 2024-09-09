@@ -50,7 +50,7 @@
     height: 800px;
 }
 
-
+/* #endregion assets */
 
 
 /* #region debug */
@@ -132,8 +132,9 @@
     border: 1px dashed black;
 }
 
+/* #endregion debug */
 
-/* #header */
+/* #region header */
 
 .title{
 height: 45px;
@@ -171,14 +172,18 @@ top: 0;
     text-decoration: none;
 }
 
-/* #nav */
+/* #endregion debug */
+
+/* #region nav */
 
 .content-navbar{
     width: 60%;
     height: 90%;
 }
 
-/* #main */
+/* #endregion nav */
+
+/* #region main */
 
 .articles{
     height: 90%;
@@ -195,7 +200,9 @@ top: 0;
     height: 100%;
 }
 
-/* #footer */
+/* #endregion main */
+
+/* #region footer */
 
 .footer-artsecondary{
     height: 100%;
@@ -219,3 +226,5 @@ top: 0;
 .footer-btn{
     cursor: pointer;
 }
+
+/* #endregion footer */
